@@ -1,2 +1,5 @@
+![Alt Text]()
+![Alt Text]()
+![Alt Text]()
+
 # ecoleta-project
-Seu marketplace de coleta de resíduos.
