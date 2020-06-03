@@ -34,7 +34,7 @@
             <input type="text" name="address" />
           </div>
           <div class="field">
-            <label for="address2">NÃºmero/Complemento</label>
+            <label for="address2">Número/Complemento</label>
             <input type="text" name="address2" />
           </div>
         </div>
@@ -45,10 +45,11 @@
             <select name="uf">
               <option value="">Selecione o Estado</option>
             </select>
+            <input type="hidden" name="state">
           </div>
           <div class="field">
             <label for="city">Cidade</label>
-            <select name="uf" disabled>
+            <select name="city" disabled>
               <option value="">Selecione a Cidade</option>
             </select>
       </fieldset>
@@ -56,5 +57,6 @@
     </form>
   </div>
 </body>
+<script src="scripts/create-point.js"></script>
 
 </html>
